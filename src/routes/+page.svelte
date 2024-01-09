@@ -21,7 +21,7 @@
     align-items: center;
 
     &__title {
-      margin-top: 40px;
+      margin: 40px 0 20px;
     }
   }
 </style>
