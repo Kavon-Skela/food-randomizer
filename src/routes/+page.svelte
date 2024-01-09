@@ -6,7 +6,7 @@
 </script>
 
 <main class="main">
-  <h3>Абсолютний рандом</h3>
+  <h3 class="main__title">Абсолютний рандом</h3>
 
   <section>
       <AutoMode />
@@ -19,5 +19,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    &__title {
+      margin-top: 40px;
+    }
   }
 </style>
